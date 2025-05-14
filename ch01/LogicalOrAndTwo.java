@@ -6,27 +6,22 @@ public class LogicalOrAndTwo {
 
 	public static void main(String[] args) {
 		// || OR
-		
-		
-		String id = "jvclass";
-		
-		
-		Scanner input = new Scanner(System.in);
-		System.out.print("¾ÆÀÌµğ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ");
-		String logid = input.nextLine();
-				
-		if ((id == "jvclass") || (id == "Á¤")) {
-			System.out.println("µî·ÏµÈ È¸¿øÀÌ ¾Æ´Õ´Ï´Ù. ");
-			System.out.println("´Ù½Ã ½ÃµµÇØÁÖ¼¼¿ä. ");
-			
-		} 
-		
-		if ((id == "jvclass") && (id == "Á¤")) {
-			System.out.println("È¸¿øÀÔ´Ï´Ù ^0^. ");
-			System.out.println("¾È³çÇÏ¼¼¿ä. ");
-		
-		
-		}//if
-	}//main
 
-}//class
+		Scanner input = new Scanner(System.in);
+		System.out.print("ì•„ì´ë””ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : ");
+		String logid = input.nextLine();
+
+		//if ((id == "jvclass") || (id == "ì •")) {
+			System.out.println("ë“±ë¡ëœ íšŒì›ì´ ì•„ë‹™ë‹ˆë‹¤. ");
+			System.out.println("ë‹¤ì‹œ ì‹œë„í•´ì£¼ì„¸ìš”. ");
+
+		//}
+
+		//if ((id == "jvclass") && (id == "ì •")) {
+			//System.out.println("íšŒì›ì…ë‹ˆë‹¤ ^0^. ");
+			//System.out.println("ì•ˆë…•í•˜ì„¸ìš”. ");
+
+		//} // if
+	}// main
+
+}// class

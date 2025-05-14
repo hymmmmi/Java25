@@ -3,40 +3,37 @@ package ch01;
 public class StringConcatExam {
 
 	public static void main(String[] args) {
-		// String Å¸ÀÔ º¹½À
-		
-		
-		String str1 = "jav" + "10.2" ;
-		String str2 = "jav" + 25 ;
-		String str3 = str2 + str1 ; 
+		// String íƒ€ì… ë³µìŠµ
+
+		String str1 = "jav" + "10.2";
+		String str2 = "jav" + 25;
+		String str3 = str2 + str1;
 		System.out.println(str1);
 		System.out.println(str2);
 		System.out.println(str3);
-		
-		String str4 = "jav" + 10.2 + 25 ; 
-		String str5 = 10.2 + 25 + "jav" ; 
-		System.out.println(str4); // jav10.225 ¹®ÀÚ·Î¿¬°á
-		System.out.println(str5); // 35.2jav ¾Õ ¼ıÀÚ + °è»ê ÈÄ ¿¬°á
-		
+
+		String str4 = "jav" + 10.2 + 25;
+		String str5 = 10.2 + 25 + "jav";
+		System.out.println(str4); // jav10.225 ë¬¸ìë¡œì—°ê²°
+		System.out.println(str5); // 35.2jav ì• ìˆ«ì + ê³„ì‚° í›„ ì—°ê²°
+
 		System.out.println("------------------------------------");
 
-		int num1 = 5 ; 
-		int num2 = 5 ; 
+		int num1 = 5;
+		int num2 = 5;
 		boolean result1 = (num1 == num2);
 		boolean result2 = (num1 != num2);
 		boolean result3 = (num1 >= num2);
-		
+
 		System.out.println(result1);
 		System.out.println(result2);
 		System.out.println(result3);
-		
-		char char1 = 'a' ; 
-		char char2 = 'b' ; 
+
+		char char1 = 'a';
+		char char2 = 'b';
 		boolean result4 = (char1 > char2);
 		System.out.println(result4);
-		
-		
-		
+
 	}
 
 }

@@ -5,26 +5,25 @@ import java.util.Scanner;
 public class LogicalExam {
 
 	public static void main(String[] args) {
-		// ·Î±×ÀÎ È®ÀÎ
+		// ë¡œê·¸ì¸ í™•ì¸
 
-		String ans1 = "³×" ; 
-		String ans2 = "¾Æ´Ï¿ä";
-						
+		String ans1 = "ë„¤";
+		String ans2 = "ì•„ë‹ˆìš”";
+
 		Scanner input = new Scanner(System.in);
-		
-		System.out.print("·Î±×ÀÎÀ» ÇÏ½Ã°Ú½À´Ï±î ? ");
-		String logans = input.nextLine();		
-		System.out.println("---- °ËÁõ Áß --------");
-		
-		if (ans1.equals(logans)){
-			System.out.println("id ¿Í pw¸¦ ÀÔ·ÂÇÏ¼¼¿ä. ");
-			
-		} else if (ans2.equals(logans)){
-			System.out.println("È¸¿ø°¡ÀÔÀ» ÇØÁÖ¼¼¿ä. ");
-		
-		
-		} //if
-		
-	} //mian
 
-} //class
+		System.out.print("ë¡œê·¸ì¸ì„ í•˜ì‹œê² ìŠµë‹ˆê¹Œ ? ");
+		String logans = input.nextLine();
+		System.out.println("---- ê²€ì¦ ì¤‘ --------");
+
+		if (ans1.equals(logans)) {
+			System.out.println("id ì™€ pwë¥¼ ì…ë ¥í•˜ì„¸ìš”. ");
+
+		} else if (ans2.equals(logans)) {
+			System.out.println("íšŒì›ê°€ì…ì„ í•´ì£¼ì„¸ìš”. ");
+
+		} // if
+
+	} // mian
+
+} // class

@@ -1,5 +1,5 @@
 
-// ¸®ÅÍ·² º¹½À¿ë
+// ë¦¬í„°ëŸ´ ë³µìŠµìš©
 
 
 package ch01;
@@ -13,13 +13,13 @@ public class LocalVarExam {
 		int literal3 = 0b0110 ; 
 		int literal4 = 0xAB3 ; 
 		
-		System.out.println("10Áø¼ö : " + literal1);
-		System.out.println("8Áø¼ö : " + literal2);
-		System.out.println("2Áø¼ö : " + literal3);
-		System.out.println("16Áø¼ö : " + literal4);
+		System.out.println("10ì§„ìˆ˜ : " + literal1);
+		System.out.println("8ì§„ìˆ˜ : " + literal2);
+		System.out.println("2ì§„ìˆ˜ : " + literal3);
+		System.out.println("16ì§„ìˆ˜ : " + literal4);
 		
 		
-		// literal ¸®ÅÍ·² °ª+
+		// literal ë¦¬í„°ëŸ´ ê°’+
 		
 	}
 

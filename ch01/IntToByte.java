@@ -3,24 +3,23 @@ package ch01;
 public class IntToByte {
 
 	public static void main(String[] args) {
-		// ÀÚµ¿Å¸ÀÔº¯È¯ º¹½À.
-		
-		byte byteValue = 10 ; 
-		int intValue = byteValue ; 
-		System.out.println(intValue);
-		
-		char charValue = '¿ù' ; 
-		intValue = charValue ; // charValue·Î µ¤¿©¾º¿©Áü.
-		System.out.println("¿ùÀÇ À¯´ÏÄÚµå °ª = " + intValue);
-		
-		intValue = 2025 ; // µ¤¾î¾²±â
-		long longValue = intValue ; // longÀÌ int º¸´Ù Å« Å¸ÀÔ 
-		System.out.println(longValue);
-		
-		intValue = 507 ; 
-		double doubleValue = intValue ; // intq º¸´Ù Å« double·Î µ¤¾î¾²±â
-		System.out.println(doubleValue);
+		// ìë™íƒ€ì…ë³€í™˜ ë³µìŠµ.
 
+		byte byteValue = 10;
+		int intValue = byteValue;
+		System.out.println(intValue);
+
+		char charValue = 'ì›”';
+		intValue = charValue; // charValueë¡œ ë®ì—¬ì”Œì—¬ì§.
+		System.out.println("ì›”ì˜ ìœ ë‹ˆì½”ë“œ ê°’ = " + intValue);
+
+		intValue = 2025; // ë®ì–´ì“°ê¸°
+		long longValue = intValue; // longì´ int ë³´ë‹¤ í° íƒ€ì…
+		System.out.println(longValue);
+
+		intValue = 507;
+		double doubleValue = intValue; // intq ë³´ë‹¤ í° doubleë¡œ ë®ì–´ì“°ê¸°
+		System.out.println(doubleValue);
 	}
 
 }

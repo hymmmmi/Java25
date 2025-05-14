@@ -1,41 +1,38 @@
 
-// º¯¼öÀÇ »ç¿ë¹üÀ§, °ıÈ£ »ç¿ë º¹½À¿ë
+// ë³€ìˆ˜ì˜ ì‚¬ìš©ë²”ìœ„, ê´„í˜¸ ì‚¬ìš© ë³µìŠµìš©
 
 package ch01;
 
 public class VariableExam {
 
 	public static void main(String[] args) {
-		
-		int v1 = 25 ; 
-		int v2 = 1 ; 
-		if(v1>10) {
-			v2 = v1 + 5 ;
-			
+
+		int v1 = 25;
+		int v2 = 1;
+		if (v1 > 10) {
+			v2 = v1 + 5;
+
 		}
-		int v3 = v1 + v2 + 10 ;
-		System.out.println("v1ÀÇ °ª " + v1);
-		System.out.println("v2ÀÇ °ª " + v2);
-		System.out.println("v3ÀÇ °ª " + v3);
-		
-		
-		// if ºñ±³¹®Àº °ıÈ£ ¾È¿¡¼­ ÀÌ·ç¾îÁü. int ¼±¾ğÀº À§ÂÊ¿¡¼­ ³¡³½´Ù. 
-		// º¯¼ö ¼±¾ğÀ» °ıÈ£ Áß°£¿¡ ÇÏ´Â °Í X
-		
-		
-		int kor, mat, eng, total ; 
-		double avg ; 
-		
-		kor = 80 ; 
-		mat = 65 ; 
-		eng = 88 ; 
-		total = kor + mat + eng ; 
-		avg = total / 3 ; 
-		
-		System.out.println("ÃÑÇÕÀº " + total +" ÀÌ¸ç,");
-		System.out.println("Æò±ÕÀº " + avg + " ÀÌ´Ù.");
-		
-		
+		int v3 = v1 + v2 + 10;
+		System.out.println("v1ì˜ ê°’ " + v1);
+		System.out.println("v2ì˜ ê°’ " + v2);
+		System.out.println("v3ì˜ ê°’ " + v3);
+
+		// if ë¹„êµë¬¸ì€ ê´„í˜¸ ì•ˆì—ì„œ ì´ë£¨ì–´ì§. int ì„ ì–¸ì€ ìœ„ìª½ì—ì„œ ëë‚¸ë‹¤.
+		// ë³€ìˆ˜ ì„ ì–¸ì„ ê´„í˜¸ ì¤‘ê°„ì— í•˜ëŠ” ê²ƒ X
+
+		int kor, mat, eng, total;
+		double avg;
+
+		kor = 80;
+		mat = 65;
+		eng = 88;
+		total = kor + mat + eng;
+		avg = total / 3;
+
+		System.out.println("ì´í•©ì€ " + total + " ì´ë©°,");
+		System.out.println("í‰ê· ì€ " + avg + " ì´ë‹¤.");
+
 		// int, double
 
 	}

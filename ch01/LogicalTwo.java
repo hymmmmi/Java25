@@ -6,30 +6,29 @@ public class LogicalTwo {
 
 	public static void main(String[] args) {
 		// id, pw
-		
-		
+
 		String id = "java";
 		String pw = "2025";
-		
-		Scanner input2 = new Scanner(System.in) ; 
-		
-		System.out.print("id¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+
+		Scanner input2 = new Scanner(System.in);
+
+		System.out.print("idë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		String logid = input2.nextLine();
-		System.out.println("========id È®ÀÎ======");
-		
-		System.out.print("pw¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.println("========id í™•ì¸======");
+
+		System.out.print("pwë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		String logpw = input2.nextLine();
-		System.out.println("========pw È®ÀÎ=======");
-		
-		if ((logid.equals(id)) & logpw.equals(pw)){
-			System.out.println("È®ÀÎ µÇ¾ú½À´Ï´Ù. ¾È³çÇÏ¼¼¿ä. ");
-		
+		System.out.println("========pw í™•ì¸=======");
+
+		if ((logid.equals(id)) & logpw.equals(pw)) {
+			System.out.println("í™•ì¸ ë˜ì—ˆìŠµë‹ˆë‹¤. ì•ˆë…•í•˜ì„¸ìš”. ");
+
 		} else {
-			System.out.println("µî·ÏµÇÁö ¾ÊÀº Á¤º¸ÀÔ´Ï´Ù.");
-			System.out.println("id¿Í pw ¸¦ È®ÀÎÇØÁÖ¼¼¿ä. ");
-	
+			System.out.println("ë“±ë¡ë˜ì§€ ì•Šì€ ì •ë³´ì…ë‹ˆë‹¤.");
+			System.out.println("idì™€ pw ë¥¼ í™•ì¸í•´ì£¼ì„¸ìš”. ");
+
 		} // if
 
 	} // main
 
-} //class
+} // class

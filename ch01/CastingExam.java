@@ -3,17 +3,17 @@ package ch01;
 public class CastingExam {
 
 	public static void main(String[] args) {
-		// Casting °­Á¦ Å¸ÀÔ º¯È¯ º¹½À
+		// Casting ê°•ì œ íƒ€ì… ë³€í™˜ ë³µìŠµ
 		
 		int intValue = 103029770 ; 
 		// byte byteValue = intValue ; 
 		System.out.println(intValue);
 		//Type mismatch: cannot convert from int to byte
 		
-		byte byteValue = (byte) intValue ; // °­Á¦ byte°ªÀ¸·Î º¯È¯
+		byte byteValue = (byte) intValue ; //ê°•ì œ byteê°’ìœ¼ë¡œ ë³€í™˜
 		
-		System.out.println("int °© Ãâ·Â " + intValue);
-		System.out.println("byte °ª Ãâ·Â " + byteValue);
+		System.out.println("int ê°’ ì¶œë ¥" + intValue);
+		System.out.println("byte ê°’ ì¶œë ¥ " + byteValue);
 		
 		
 		int kor = 92 ; 
@@ -21,17 +21,17 @@ public class CastingExam {
 		int mat = 89 ; 
 		
 		int total = kor + eng + mat ; 
-		System.out.println("================¼ºÀûÇ¥================");
-		System.out.println("¼¼ °ú¸ñÀÇ ÃÑÁ¡ : " + total);
+		System.out.println("================ì„±ì í‘œ====================");
+		System.out.println("ì„¸ ê³¼ëª©ì˜ ì´ì   : " + total);
 		
-		int avg = total / 3 ; // Á¤¼öÅ¸ÀÔ
-		System.out.println("Æò±Õ : " + avg);
+		int avg = total / 3 ; // ì •ìˆ˜íƒ€ì…
+		System.out.println("í‰ê·  : " + avg);
 		
-		double avg2 = total / 3 ; // ÀÚµ¿º¯È¯
-		System.out.println("Æò±Õ : " + avg2);
+		double avg2 = total / 3 ; // ìë™ë³€í™˜ 
+		System.out.println("í‰ê·  : " + avg2);
 		
-		avg2 = (double)total / 3 ; // °­Á¦º¯È¯
-		System.out.println("¼¼ °ú¸ñÀÇ Æò±Õ : " + avg2);
+		avg2 = (double)total / 3 ; // ê°•ì œë³€í™˜
+		System.out.println("ì„¸ ê³¼ëª©ì˜ í‰ê·  : " + avg2);
 		
 		
 	

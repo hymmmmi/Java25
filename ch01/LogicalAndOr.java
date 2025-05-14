@@ -6,31 +6,28 @@ public class LogicalAndOr {
 
 	public static void main(String[] args) {
 		// && AND
-		
+
 		Scanner input = new Scanner(System.in);
-		
-	System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¸é ´ë¼Ò¹®ÀÚ¿Í ±âÈ£¹®ÀÚ¸¦ ÆÇ´ÜÇÕ´Ï´Ù. : ");
-	
-	int charCode = input.nextInt();
-	
-	if((charCode>=65) & (charCode<=90)) {
-		System.out.println("ÀÔ·Â°ªÀÌ ´ë¹®ÀÚ ÀÔ´Ï´Ù : " + (char)charCode);
-		
-	} else if ((charCode>=97) && (charCode<=122)) {
-		System.out.println("ÀÔ·Â°ªÀÌ ¼Ò¹®ÀÚ ÀÔ´Ï´Ù  : " + (char)charCode);
-		
-	} else if ((charCode>=58) && (charCode<=126)) {
-		System.out.println("À¯´ÏÄÚµåÀÇ ±âÈ£ ¹®ÀÚÀÔ´Ï´Ù. " + (char)charCode);
-		
-	} else {
-		System.out.println("À¯´ÏÄÚµå Ç¥ÀÇ ¾ø´Â ¼ýÀÚÀÔ´Ï´Ù. ");
-		System.out.println("´Ù½Ã ½Ãµµ ÇØÁÖ¼¼¿ä. ");
-		
-		
-		
-	} //if
-		
 
-	}//main
+		System.out.print("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œë©´ ëŒ€ì†Œë¬¸ìžì™€ ê¸°í˜¸ë¬¸ìžë¥¼ íŒë‹¨í•©ë‹ˆë‹¤. : ");
 
-}//class
+		int charCode = input.nextInt();
+
+		if ((charCode >= 65) & (charCode <= 90)) {
+			System.out.println("ìž…ë ¥ê°’ì´ ëŒ€ë¬¸ìž ìž…ë‹ˆë‹¤ : " + (char) charCode);
+
+		} else if ((charCode >= 97) && (charCode <= 122)) {
+			System.out.println("ìž…ë ¥ê°’ì´ ì†Œë¬¸ìž ìž…ë‹ˆë‹¤  : " + (char) charCode);
+
+		} else if ((charCode >= 58) && (charCode <= 126)) {
+			System.out.println("ìœ ë‹ˆì½”ë“œì˜ ê¸°í˜¸ ë¬¸ìžìž…ë‹ˆë‹¤. " + (char) charCode);
+
+		} else {
+			System.out.println("ìœ ë‹ˆì½”ë“œ í‘œì˜ ì—†ëŠ” ìˆ«ìžìž…ë‹ˆë‹¤. ");
+			System.out.println("ë‹¤ì‹œ ì‹œë„ í•´ì£¼ì„¸ìš”. ");
+
+		} // if
+
+	}// main
+
+}// class

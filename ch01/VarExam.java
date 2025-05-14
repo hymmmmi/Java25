@@ -1,6 +1,5 @@
 
-// ÀÛ¼º¸ñÇ¥ :  º¯¼ö¼±¾ğ Á¤¼ö, ½Ç¼ö, ¹®ÀÚÅ¸ÀÔ º¹½À¿ë
-
+// ì‘ì„±ëª©í‘œ :  ë³€ìˆ˜ì„ ì–¸ ì •ìˆ˜, ì‹¤ìˆ˜, ë¬¸ìíƒ€ì… ë³µìŠµìš©
 
 package ch01;
 
@@ -8,48 +7,42 @@ public class VarExam {
 
 	public static void main(String[] args) {
 
-		int mach ;
-		int distance ; 
-		mach = 340 ;
-		distance = mach * 60 * 60 ; 
-		System.out.println("¼Ò¸®°¡ 1½Ã°£ µ¿¾È °¡´Â °Å¸® : " + distance + "m");
-		
-		System.out.println("¼Ò¸®°¡ 1½Ã°£ µ¿¾È °¡´Â °Å¸®");
-		System.out.println(distance + "m");
-		
-		
-		// int Á¤¼ö Å¸ÀÔÀÇ º¯¼ö
+		int mach;
+		int distance;
+		mach = 340;
+		distance = mach * 60 * 60;
+		System.out.println("ì†Œë¦¬ê°€ 1ì‹œê°„ ë™ì•ˆ ê°€ëŠ” ê±°ë¦¬ : " + distance + "m");
 
-		
-		double radius ;
-		double area ; 
-		radius = 15 ; 
-		area = radius * radius * 3.14 ; 
-		System.out.println("¹İÁö¸§ÀÌ " + radius + "ÀÎ ¿øÀÇ ¹İÁö¸§Àº " + area);
-		
-		System.out.println("¹İÁö¸§ÀÌ " + radius + "ÀÎ");
-		System.out.println("¿øÀÇ ¹İÁö¸§Àº " + area);
-		
-		
-		//double ½Ç¼öÅ¸ÀÔÀÇ º¯¼ö
-		
-		
-		char firstName ; 
-		char midName ; 
-		char lastName ; 
-		
-		firstName = '±è' ; 
-		midName = 'ÀÌ' ;
-		lastName = '¹Ú' ; 
+		System.out.println("ì†Œë¦¬ê°€ 1ì‹œê°„ ë™ì•ˆ ê°€ëŠ” ê±°ë¦¬");
+		System.out.println(distance + "m");
+
+		// int ì •ìˆ˜ íƒ€ì…ì˜ ë³€ìˆ˜
+
+		double radius;
+		double area;
+		radius = 15;
+		area = radius * radius * 3.14;
+		System.out.println("ë°˜ì§€ë¦„ì´ " + radius + "ì¸ ì›ì˜ ë°˜ì§€ë¦„ì€ " + area);
+
+		System.out.println("ë°˜ì§€ë¦„ì´ " + radius + "ì¸");
+		System.out.println("ì›ì˜ ë°˜ì§€ë¦„ì€ " + area);
+
+		// double ì‹¤ìˆ˜íƒ€ì…ì˜ ë³€ìˆ˜
+
+		char firstName;
+		char midName;
+		char lastName;
+
+		firstName = 'ê¹€';
+		midName = 'ì´';
+		lastName = 'ë°•';
 		System.out.println(firstName);
 		System.out.println(midName);
 		System.out.println(lastName);
-		
-		System.out.println("°¡Àå ¸¹Àº ¼º : " + firstName + midName + lastName );
+
+		System.out.println("ê°€ì¥ ë§ì€ ì„± : " + firstName + midName + lastName);
 	}
-	
-	
-	// char ¹®ÀÚÅ¸ÀÔÀÇ º¯¼ö
-	
+
+	// char ë¬¸ìíƒ€ì…ì˜ ë³€ìˆ˜
 
 }

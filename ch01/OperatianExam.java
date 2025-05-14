@@ -3,39 +3,38 @@ package ch01;
 public class OperatianExam {
 
 	public static void main(String[] args) {
-		// ¿¬»êÀÚ »ç¿ë º¹½À
-		
-		int x = 8 ; 
-		x++ ; 
+		// ì—°ì‚°ì ì‚¬ìš© ë³µìŠµ
+
+		int x = 8;
+		x++;
 		System.out.println("x++ = " + x);
-		
-		int y = 12 ; 
-		int result1 = x + y ; 
+
+		int y = 12;
+		int result1 = x + y;
 		System.out.println("result1 = " + result1);
-		
-		--y ; 
+
+		--y;
 		System.out.println("--y = " + y);
-		
-		int result2 = x + y ; 
+
+		int result2 = x + y;
 		System.out.println("x + y = " + result2);
-		
-		String result3 = (result1>10) ? "up" : "dwn" ; 
-		System.out.println("x + y ´Â 10º¸´Ù " + result3);
-		
-		// 3Ç×¿¬»êÀÚ¸¦ »ç¿ëÇÏ¿© 5ÀÇ ¹è¼ö¸¦ Ã£±â.
-		
-		int a = 25 ; 
-		int b = a % 5 ; 
-		String f = (b == 0) ? "¸Â´Ù" : "¾Æ´Ï´Ù" ; 
-		System.out.println("a´Â 5ÀÇ ¹è¼ö°¡ " + f);
-		
-		// È¦Â¦ ¸¸µé±â
-		
-		int x1 = 13 ; 
-		int div = x1 % 2 ; 
-		String z1 = (div == 1) ? "È¦¼ö" : "Â¦¼ö" ; 
-		System.out.println("x1Àº " + z1);
-		
+
+		String result3 = (result1 > 10) ? "up" : "dwn";
+		System.out.println("x + y ëŠ” 10ë³´ë‹¤ " + result3);
+
+		// 3í•­ì—°ì‚°ìë¥¼ ì‚¬ìš©í•˜ì—¬ 5ì˜ ë°°ìˆ˜ë¥¼ ì°¾ê¸°.
+
+		int a = 25;
+		int b = a % 5;
+		String f = (b == 0) ? "ë§ë‹¤" : "ì•„ë‹ˆë‹¤";
+		System.out.println("aëŠ” 5ì˜ ë°°ìˆ˜ê°€ " + f);
+
+		// í™€ì§ ë§Œë“¤ê¸°
+
+		int x1 = 13;
+		int div = x1 % 2;
+		String z1 = (div == 1) ? "í™€ìˆ˜" : "ì§ìˆ˜";
+		System.out.println("x1ì€ " + z1);
 
 	}
 
