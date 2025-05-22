@@ -19,9 +19,9 @@ public class DoWhileTest01 {
 			System.out.print(">>> ");
 			qus = inputInt.nextInt();
 			
-			if (qus>ans) {
+			if (qus<ans) {
 				System.out.println("up 입니다.");
-			} else if (qus<ans) {
+			} else if (qus>ans) {
 				System.out.println("down 입니다.");
 				
 			}//if

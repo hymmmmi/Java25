@@ -17,7 +17,9 @@ public class CarRunExam {
 		int speed = 0; // 속도
 
 		int max = 200; // 최고속도
+		// 정답은 final int MAXSPEED 로 안바뀌는 코드로 써야함.
 		int min = 0; // 최저속도
+		// final int MINSPEED
 
 		System.out.println("차량이 입고되었습니다.");
 		System.out.println("시동을 켭니다.");
@@ -51,6 +53,7 @@ public class CarRunExam {
 
 				if (speed >= max) {
 					speed = max;
+					// speed = MAXSPEED
 				} // if
 
 				break;
@@ -62,6 +65,7 @@ public class CarRunExam {
 
 				if (speed <= min) {
 					speed = min;
+					// speed = MINSPEED
 				} // if
 				break;
 
